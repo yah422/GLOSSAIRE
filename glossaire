@@ -14,12 +14,37 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
+
+un ensemble de logiciels libres facilitant l'installation d'un serveur web local. Il comprend Apache (le serveur web), MySQL (la base de données), PHP.
+Par exemple XAMPP et WAMPSERVER.
+
 2.	Qu’est-ce qu’un algorithme ?  
+
+Un algorithme est une série d'étapes précises pour accomplir une tâche ou résoudre un problème, souvent utilisé en informatique. 
+
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+
+une variable est un conteneur pour stocker des données, comme des nombres, des chaînes de caractères ou des tableaux, identifiés par un nom précédé du signe "$".
+
 4.	Qu’est-ce que la portée d’une variable ?
+
+La portée d'une variable indique où cette variable peut être utilisée dans votre code. 
+Une variable peut être accessible uniquement à l'endroit où elle est créée (portée locale) ou disponible partout dans le script (portée globale).
+
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+
+Une constante est un identifiant associé à une valeur fixe qui ne change pas. 
+Elle diffère d'une variable qui peut varier pendant l'exécution et a des portées locales ou globales.
+
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+
+Une superglobale est une variable prédéfinie utilisée pour accéder à des données globales. 
+Il existe neuf superglobales, dont `$_GET`, `$_POST`et `$_SESSION`. 
+Par exemple, `$_GET` est utilisée pour récupérer des données depuis l'URL dans un formulaire HTML.
+
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+
+
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
