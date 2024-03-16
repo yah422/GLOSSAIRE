@@ -13,6 +13,7 @@
 - [English](#english)
 
 ## Général
+
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
 
 un ensemble de logiciels libres facilitant l'installation d'un serveur web local. Il comprend Apache (le serveur web), MySQL (la base de données), PHP.
@@ -87,18 +88,54 @@ Le contrôle de version est un système qui enregistre les modifications apport�
 
 Un CMS (Content Management System) est une application logicielle permettant de créer, gérer et organiser le contenu d'un site web sans nécessiter de compétences techniques avancées en programmation. Deux exemples de CMS sont WordPress et Drupal.
 
+
 ## Front-end
+
 18.	Définir HTML
+
+HTML (HyperText Markup Language) est un langage de balisage utilisé pour structurer et présenter le contenu sur le Web. Il permet de définir la structure des documents en utilisant des balises pour marquer différents types de contenu, tels que du texte, des images, des liens, etc.
+
 19.	Définir CSS
+
+CSS (Cascading Style Sheets) est un langage de feuilles de style utilisé pour styliser et mettre en forme les documents HTML. Il permet de contrôler l'apparence des éléments HTML en définissant des règles de style telles que la couleur, la taille, la police, la disposition, etc.
+
 20.	Définir Javascript
+
+Javascript est un langage de programmation de scripts principalement utilisé pour rendre les pages web interactives et dynamiques. Il est souvent utilisé pour manipuler le contenu HTML, interagir avec l'utilisateur, et effectuer des actions en réponse à des événements.
+
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
+
+JSON (JavaScript Object Notation) est un format léger d'échange de données utilisé pour stocker et échanger des données structurées entre un serveur et un client. Il est souvent utilisé dans les applications web pour transférer des données entre le serveur et le navigateur
+On utilise JSON dans le contexte des échanges de données entre le serveur et le client, comme les réponses aux requêtes AJAX, les configurations de l'application, etc
+
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+
+Non, Javascript est principalement un langage de programmation côté client, exécuté par le navigateur web. Cependant, avec l'utilisation de moteurs d'exécution de Javascript côté serveur tels que Node.js, il est possible d'exécuter du Javascript côté serveur.
+
 23.	Qu’est-ce qu’un sélecteur CSS ?
+
+Un sélecteur CSS est une expression qui permet de cibler des éléments HTML spécifiques pour leur appliquer des styles. Les sélecteurs CSS peuvent être basés sur différents critères tels que les balises HTML, les classes, les id, les attributs, etc.
+
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
+
+La balise HTML <a> permet de créer un lien hypertexte
+
 25.	Qu’est-ce qu’une requête AJAX ?
+
+Une requête AJAX (Asynchronous JavaScript and XML) est une technique de développement web qui permet d'envoyer et de recevoir des données du serveur en arrière-plan, sans avoir à recharger toute la page web. Cela permet de créer des applications web plus dynamiques et interactives
+
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+
+Pour sélectionner tous les éléments d'une classe spécifique en CSS, on utilise le sélecteur de classe ".". Pour sélectionner un élément par son identifiant, on utilise le sélecteur d'identifiant "#"
+
 27.	Définir le responsive design
+
+Le responsive design signifie simplement concevoir des sites web qui s'adaptent à différents appareils et tailles d'écrans en utilisant des techniques flexibles de mise en page et des règles CSS spécifiques
+
 28.	Qu’est-ce que le templating ?
+
+
+
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
 31.	Qu’est-ce qu’un « media query » ?
