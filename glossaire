@@ -134,16 +134,35 @@ Le responsive design signifie simplement concevoir des sites web qui s'adaptent 
 
 28.	Qu’est-ce que le templating ?
 
-
+Le templating est un processus de création de modèles de conception réutilisables pour générer dynamiquement des pages web. Il permet de séparer la structure et le contenu d'une page en utilisant des modèles pré-définis dans lesquels le contenu est injecté dynamiquement.
 
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
+
+Une fonction anonyme en Javascript est une fonction qui n'a pas de nom et qui est définie de manière littérale. Elle est souvent utilisée comme argument pour d'autres fonctions ou pour créer des expressions de fonction
+
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+
+La méthode JavaScript utilisée pour ajouter un élément à la fin d'un tableau est "push()"
+
 31.	Qu’est-ce qu’un « media query » ?
+
+Un media query en CSS ajuste les styles en fonction des caractéristiques du périphérique utilisateur comme la taille de l'écran, permettant des mises en page adaptatives et réactives
+
 32.	Qu’est-ce qu’un pseudo élément en CSS ?
+
+Un pseudo-élément en CSS permet de styliser une partie spécifique d'un élément HTML en utilisant des mots-clés tels que :before et :after pour ajouter du contenu ou modifier son apparence
+
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+
+Bootstrap est un framework front-end populaire pour les sites web réactifs, offrant des outils CSS et JavaScript pré-stylisés. D'autres alternatives incluent Foundation, Materialize et Bulma
+
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
 
+Lorsqu'un formulaire HTML est créé, les deux méthodes qui peuvent lui être associées sont GET et POST. La méthode GET envoie les données du formulaire dans l'URL, tandis que la méthode POST envoie les données du formulaire dans le corps de la requête HTTP, ce qui les rend invisibles dans l'URL et plus appropriées pour l'envoi de données sensibles
+
+
 ## UX UI
+
 35.	Quelle est la différence entre UX Design et UI Design ?
 36.	Qu’est-ce qu’un wireframe ? 
 37.	Qu’est-ce qu’un prototype ? 
