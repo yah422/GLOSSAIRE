@@ -44,8 +44,11 @@ Par exemple, `$_GET` est utilisée pour récupérer des données depuis l'URL da
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 
+En PHP, les types primitifs associables à une variable sont les entiers INT, nombres à virgule FLOAT, chaînes de caractères STRING, booléens, tableaux ARRAY, objets et NULL.
 
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+
+
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
