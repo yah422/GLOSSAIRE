@@ -48,16 +48,44 @@ En PHP, les types primitifs associables à une variable sont les entiers INT, no
 
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 
+En PHP, il existe plusieurs types de tableaux, notamment les tableaux numériques (indexés), les tableaux associatifs (utilisant des clés associatives) et les tableaux multidimensionnels (contenant des tableaux à plusieurs niveaux).
 
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+
+Les différentes structures de contrôle en algorithmie sont : la structure conditionnelle (ex: if-else), la boucle (ex: for, while), et la structure de séquence (ex: exécution linéaire)
+
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+
+La fonction PHP permettant de demander la longueur d'une chaîne de caractères est strlen()
+
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+
+Une session en PHP est un moyen de stocker des données utilisateur sur le serveur. La fonction PHP permettant de démarrer une session est session_start()
+
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+
+Un cookie en PHP est un petit fichier stocké sur l'ordinateur client, contenant des informations sur l'utilisateur.
+exemple : setcookie("prefered_language", "fr", time() + (24 * 3600), "/");
+
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
+
+La différence entre les instructions "require" et "include" en PHP est que "require" génère une erreur fatale si le fichier inclus n'est pas trouvé, tandis que "include" génère seulement un avertissement.
+
 14.	Comment effectuer une redirection en PHP ?
+
+Pour effectuer une redirection en PHP, on utilise la fonction header() avec l'en-tête "Location"
+
 15.	Définir la partie « front-end » et « back-end » d’une application
+
+La partie "front-end" d'une application se réfère à la partie visible et interactive que l'utilisateur voit et utilise directement, tandis que la partie "back-end" se réfère à la partie du système qui gère les fonctionnalités en arrière-plan et interagit avec le serveur.
+
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
+
+Le contrôle de version est un système qui enregistre les modifications apportées à un projet au fil du temps. Git est un logiciel de contrôle de version populaire utilisé pour suivre les modifications du code source
+
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+
+Un CMS (Content Management System) est une application logicielle permettant de créer, gérer et organiser le contenu d'un site web sans nécessiter de compétences techniques avancées en programmation. Deux exemples de CMS sont WordPress et Drupal.
 
 ## Front-end
 18.	Définir HTML
