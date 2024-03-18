@@ -164,13 +164,36 @@ Lorsqu'un formulaire HTML est créé, les deux méthodes qui peuvent lui être a
 ## UX UI
 
 35.	Quelle est la différence entre UX Design et UI Design ?
+
+UX Design se concentre sur l'expérience globale de l'utilisateur, tandis que UI Design se focalise sur l'apparence et l'interaction de l'interface utilisateur
+
 36.	Qu’est-ce qu’un wireframe ? 
+
+Un wireframe est comme un croquis basique de l'apparence d'un site web ou d'une application, utilisé pour organiser les éléments sans se préoccuper des détails graphiques
+
 37.	Qu’est-ce qu’un prototype ? 
+
+Un prototype est une version initiale d'un produit ou d'une partie de produit utilisée pour tester des idées et des fonctionnalités avant le développement complet
+
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
+
+La hiérarchie visuelle en UI Design consiste à organiser les éléments de manière à ce que les plus importants soient mis en avant, permettant aux utilisateurs de naviguer facilement dans l'interface
+
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
+
+L'accessibilité en UX Design consiste à rendre les produits numériques faciles à utiliser pour tous, y compris les personnes handicapées ou ayant des besoins spéciaux, en concevant des interfaces adaptées à leurs besoins
+
 40.	Qu’est-ce qu’une grille de mise en page ?
+
+Une grille de mise en page est un système de lignes utilisé pour organiser visuellement le contenu sur une page web ou une application
+
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
+
+L'affordance en UX Design fait référence à la capacité d'un élément d'interface à suggérer sa fonction ou son utilisation
+
 42.	Qu’est-ce qu’un « mobile first design » ?
+
+Le "mobile first design" est une approche de conception qui consiste à créer d'abord une expérience utilisateur optimisée pour les appareils mobiles, puis à l'adapter aux écrans plus grands
 
 
 IV. Programmation orientée objet (POO)
