@@ -272,12 +272,45 @@ La sérialisation en PHP est le processus de conversion d'objets en une représe
 
 ## Architecture 
 60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
+
+L'architecture client/serveur est un modèle dans lequel les tâches sont réparties entre les ordinateurs client et un serveur central. 
+Les requêtes sont utilisées pour interroger le serveur. L'acronyme de ce type de requête est HTTP (Hypertext Transfer Protocol). 
+En ajoutant un "S" à cet acronyme, cela signifie HTTPS, où la communication est sécurisée par un protocole SSL/TLS
+
 61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
+
+Un design pattern est une solution réutilisable à un problème récurrent dans le développement logiciel. 
+Trois exemples de design pattern sont : Singleton, Factory Method, et Observer
+
 62.	Qu’est-ce que l’architecture MVC ?
+
+L'architecture MVC (Modèle-Vue-Contrôleur) est un modèle de conception utilisé dans le développement logiciel pour séparer les responsabilités des différentes parties d'une application
+
 63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
+
+Dans l'architecture MVC, le rôle de chaque couche est le suivant :
+
+Le Model représente les données et la logique métier de l'application.
+La View est responsable de l'affichage des données et de l'interface utilisateur.
+Le Controller agit comme un intermédiaire entre le Model et la View, traitant les requêtes de l'utilisateur et mettant à jour les données en conséquence
+
 64.	Quels sont les avantages de l’architecture MVC ?
+
+Les avantages de l'architecture MVC sont : 
+- la séparation claire des préoccupations
+- la facilité de maintenance et de test
+- la réutilisabilité du code
+- la possibilité de travailler en parallèle sur les différentes parties de l'application
+
 65.	Existe-t-il des variantes à l’architecture MVC ?
+
+Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Modèle-Vue-VueModèle), MVP (Modèle-Vue-Présentateur), et HMVC (Hierarchical Model-View-Controller), qui s'adaptent à différents besoins et contextes
+
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
+
+Une API (Interface de Programmation Applicative) est un ensemble de règles et de protocoles qui permettent à différents logiciels de communiquer entre eux. 
+L'architecture REST (Representational State Transfer) est un style d'architecture pour la conception de systèmes distribués, où les ressources sont représentées par des URI (Uniform Resource Identifier) et manipulées à travers des méthodes standardisées (GET, POST, PUT, DELETE)
+
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
