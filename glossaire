@@ -299,22 +299,63 @@ c.	SGBD (donner 2 exemples de SGBD)
 SGBD (Système de Gestion de Base de Données) est un logiciel qui permet de gérer des bases de données. Deux exemples de SGBD sont Oracle et PostgreSQL
 
 75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
+-1- table
+-2- enrengistrements ou tuples
+-3- attributs
+
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+Une base de données relationnelle organise les données en tables liées les unes aux autres par des relations définies, 
+tandis qu'une base de données non relationnelle stocke les données d'une manière plus flexible, souvent en utilisant des structures telles que des documents ou des graphes
+
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+Une jointure dans une base de données permet de combiner les données de deux tables en fonction d'une condition spécifiée. 
+Il existe plusieurs types de jointures, notamment les jointures internes INNER, externes (gauche LEFT, droite RIGHT et complète FULL), et les jointures croisées
+
 78.	A quoi sert une vue dans une base de données ?
+Une vue dans une base de données est comme une table virtuelle préparée à l'avance. 
+Elle simplifie la façon dont vous accédez aux données en fournissant une vue spécifique sans changer la structure principale de la base de données. 
+
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
+L'intégrité référentielle dans une base de données assure que les liens entre les tables restent cohérents. 
+En d'autres termes, une valeur dans une table doit correspondre à une valeur existante dans une autre table, souvent via des clés étrangères.
+
 80.	Quelles sont les fonctions d’agrégation en SQL ?
+Les fonctions d'agrégation en SQL permettent de calculer des valeurs résumées à partir d'un ensemble de lignes. 
+Elles incluent des fonctions telles que SUM, AVG, COUNT, MAX et MIN
+
 81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
+CRUD est un acronyme pour Create (Créer), Read (Lire), Update (Mettre à jour) et Delete (Supprimer). 
+Il représente les opérations de base effectuées sur les données dans une base de données
+
 82.	Quelles sont les clauses qui permettent de :
 a.	Insérer un nouvel enregistrement dans une table
+INSERT INTO
+
 b.	Modifier un enregistrement dans une table
+UPDATE
+
 c.	Supprimer un enregistrement dans une table
+DELETE FROM
+
 d.	Supprimer la base de données
+DROP DATABASE
+
 e.	Filtrer les résultats d’une requête SQL
+WHERE
+
 f.	Trier les résultats d’une requête SELECT
+ORDER BY
+
 g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
+GROUP BY
+
 h.	Concaténer 2 chaînes de caractères 
+CONCAT
+
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+Pour se connecter à une base de données en PHP, on utilise généralement la classe native 'PDO' (PHP Data Objects) ou 'mysqli' (MySQL Improved). 
+Avec PDO, on peut se connecter à différents types de bases de données en utilisant des pilotes spécifiques à chaque base de données.
+
 
 ## Symfony
 84.	Qu’est-ce que Symfony ?
