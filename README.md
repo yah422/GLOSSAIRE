@@ -358,30 +358,82 @@ Avec PDO, on peut se connecter à différents types de bases de données en util
 
 
 ## Symfony
-84.	Qu’est-ce que Symfony ?
-85.	Sur quel langage de programmation et design pattern repose Symfony ? 
-86.	Quelle est la dernière version en date de Symfony ?
-87.	Qu’est-ce qu’un bundle ? 
-88.	Quel est le moteur de template utilisé par défaut dans Symfony ?
-89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
-90.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
-91.	Que permet le bundle Maker au sein de Symfony ? 
-92.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
-93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+
+84.	Qu’est-ce que Symfony ? 
+Symfony est un framework PHP utilisé pour développer des applications web. Il offre une structure solide et des outils pour simplifier le développement.
+
+86.	Sur quel langage de programmation et design pattern repose Symfony ? 
+Symfony repose sur le langage de programmation PHP et suit principalement le design pattern MVC (Modèle-Vue-Contrôleur).
+
+87.	Quelle est la dernière version en date de Symfony ?
+La dernière version de Symfony en date peut varier. Pour connaître la version la plus récente, il est recommandé de consulter le site officiel de Symfony ou exécuter symfony -v.
+
+88.	Qu’est-ce qu’un bundle ? 
+Un bundle est un ensemble de fichiers (code, templates, configuration) qui fournit des fonctionnalités spécifiques dans un projet Symfony. C'est l'équivalent d'un module ou d'un plugin.
+
+89.	Quel est le moteur de template utilisé par défaut dans Symfony ?
+Le moteur de template utilisé par défaut dans Symfony est Twig.
+
+90.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+Un ORM (Object-Relational Mapping) est un outil qui permet de gérer les bases de données en manipulant des objets PHP au lieu d'écrire des requêtes SQL. Dans Symfony, l'ORM utilisé est Doctrine.
+
+91.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
+L'injection de dépendances est une technique où les dépendances (services, objets) d'une classe sont passées directement à celle-ci, plutôt que d'être créées à l'intérieur de la classe. L'outil utilisé pour gérer cela dans Symfony est le container de services. Le fichier services.yaml contient la configuration des dépendances du projet.
+
+92.	Que permet le bundle Maker au sein de Symfony ? 
+Le bundle Maker permet de générer du code de manière automatisée dans Symfony, comme des contrôleurs, des entités ou des formulaires, facilitant ainsi le développement.
+
+93.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+Le langage de requêtage exploité est DQL (Doctrine Query Language), qui est utilisé pour interagir avec la base de données via Doctrine.
+
+94.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+Le composant qui garantit l'authentification et l'autorisation des utilisateurs dans Symfony est le Security Component.
+
 
 ## Sécurité
+
 94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
+Injection SQL : C'est une attaque où un pirate insère du code SQL malveillant dans une requête pour accéder ou modifier les données d'une base de données.
+Se prémunir : Utiliser des requêtes préparées avec des paramètres, valider et échapper les entrées utilisateur.
+
 95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+Faille XSS (Cross-Site Scripting) : C'est une attaque où un pirate injecte du code JavaScript malveillant dans une page web, qui est ensuite exécuté par les utilisateurs.
+Se prémunir : Échapper les données affichées, désactiver les balises HTML dangereuses dans les entrées utilisateur.
+
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
+Faille CSRF (Cross-Site Request Forgery) : C'est une attaque où un pirate force un utilisateur à exécuter une action non désirée sur un site où il est authentifié.
+Se prémunir : Utiliser des tokens CSRF pour valider les requêtes, vérifier l'origine des requêtes (en-têtes Referer).
+
 97.	Définir l’attaque par force brute et l’attaque par dictionnaire
+Force brute : Essayer toutes les combinaisons possibles de mots de passe jusqu'à trouver le bon.
+Attaque par dictionnaire : Essayer une liste de mots de passe courants ou pré-compilés (dictionnaire) pour deviner le mot de passe.
+
 98.	Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+Failles de sécurité :
+Failles de type RCE (Remote Code Execution) : Permet à un pirate d'exécuter du code malveillant à distance sur un serveur.
+Failles de type DoS (Denial of Service) : Saturer un service ou un serveur pour le rendre indisponible.
+Failles de type LFI/RFI (Local/Remote File Inclusion) : Permet à un pirate d'inclure des fichiers locaux ou distants dans une application.
+
 99.	A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+Authentification : Vérifier l'identité d'un utilisateur (ex : login/mot de passe).
+Autorisation : Déterminer les actions ou ressources auxquelles un utilisateur authentifié a accès.
+
 100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+Hachage d’un mot de passe : Transformer un mot de passe en une chaîne de caractères (empreinte) à sens unique, difficilement réversible.
+Algorithmes de hachage : bcrypt, SHA-256, Argon2.
+
 101.	Qu’est-ce qu’une politique de mots de passe forts ?
+Politique de mots de passe forts : Imposer des critères pour les mots de passe (longueur minimale, mélange de majuscules, minuscules, chiffres et symboles) pour augmenter leur sécurité.
+
 102.	Qu’est-ce que l’hameçonnage ?
+Hameçonnage (Phishing) : Une attaque où un pirate se fait passer pour une entité légitime pour tromper les utilisateurs et obtenir leurs informations sensibles (mots de passe, numéros de carte de crédit).
+
 103.	Définir la « validation des entrées »
+Validation des entrées : Vérifier et filtrer toutes les données fournies par les utilisateurs pour s'assurer qu'elles sont conformes aux attentes avant de les traiter, évitant ainsi des comportements inattendus ou dangereux.
+
 
 ## RGPD
+
 104.	Qu’est-ce que le RGPD ? Le RGPD (Règlement Général sur la Protection des Données) est une réglementation de l'Union Européenne visant à protéger les données personnelles des citoyens
 105.	Quel est son objectif principal ? Son objectif principal est de protéger la vie privée des individus en réglementant la collecte, l'utilisation, et le stockage de leurs données personnelles
 106.	Quelle est la date d’entrée en vigueur du RGPD ? Le RGPD est entré en vigueur le 25 mai 2018
@@ -393,7 +445,9 @@ Avec PDO, on peut se connecter à différents types de bases de données en util
 112.	Quels sont les droits des utilisateurs selon le RGPD ? Les utilisateurs ont plusieurs droits, dont le droit d'accès, de rectification, d'effacement, à la limitation du traitement, à la portabilité des données, et d'opposition
 113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ? C'est le principe selon lequel seules les données personnelles nécessaires à la finalité pour laquelle elles sont traitées doivent être collectées et conservées
 
+
 ## SEO
+
 114.	Qu’est-ce que le SEO ? 
 115.	Quel est l’objectif principal du SEO ?
 116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
@@ -407,6 +461,7 @@ Avec PDO, on peut se connecter à différents types de bases de données en util
 124.	Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
 125.	Qu'est-ce que l'optimisation des images pour le référencement ?
 126.	Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+
 
 ## Gestion de projets - DevOps
 127.	Qu’est-ce que la gestion de projet ?	
