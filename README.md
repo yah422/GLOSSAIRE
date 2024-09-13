@@ -366,27 +366,27 @@ Symfony est un framework PHP utilisé pour développer des applications web. Il 
 Symfony repose sur le langage de programmation PHP et suit principalement le design pattern MVC (Modèle-Vue-Contrôleur).
 
 87.	Quelle est la dernière version en date de Symfony ?
-La dernière version de Symfony en date peut varier. Pour connaître la version la plus récente, il est recommandé de consulter le site officiel de Symfony ou exécuter symfony -v.
+La dernière version stable de Symfony est la version 7.1.4, publiée le 30 août 2024. Elle fait partie de la branche 7.1 et nécessite PHP 8.2 ou une version ultérieure pour fonctionner
 
-88.	Qu’est-ce qu’un bundle ? 
+89.	Qu’est-ce qu’un bundle ? 
 Un bundle est un ensemble de fichiers (code, templates, configuration) qui fournit des fonctionnalités spécifiques dans un projet Symfony. C'est l'équivalent d'un module ou d'un plugin.
 
-89.	Quel est le moteur de template utilisé par défaut dans Symfony ?
+90.	Quel est le moteur de template utilisé par défaut dans Symfony ?
 Le moteur de template utilisé par défaut dans Symfony est Twig.
 
-90.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+91.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
 Un ORM (Object-Relational Mapping) est un outil qui permet de gérer les bases de données en manipulant des objets PHP au lieu d'écrire des requêtes SQL. Dans Symfony, l'ORM utilisé est Doctrine.
 
-91.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
+92.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
 L'injection de dépendances est une technique où les dépendances (services, objets) d'une classe sont passées directement à celle-ci, plutôt que d'être créées à l'intérieur de la classe. L'outil utilisé pour gérer cela dans Symfony est le container de services. Le fichier services.yaml contient la configuration des dépendances du projet.
 
-92.	Que permet le bundle Maker au sein de Symfony ? 
+93.	Que permet le bundle Maker au sein de Symfony ? 
 Le bundle Maker permet de générer du code de manière automatisée dans Symfony, comme des contrôleurs, des entités ou des formulaires, facilitant ainsi le développement.
 
-93.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+94.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
 Le langage de requêtage exploité est DQL (Doctrine Query Language), qui est utilisé pour interagir avec la base de données via Doctrine.
 
-94.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+95.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 Le composant qui garantit l'authentification et l'autorisation des utilisateurs dans Symfony est le Security Component.
 
 
