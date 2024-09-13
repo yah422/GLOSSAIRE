@@ -433,53 +433,90 @@ Validation des entrées : Vérifier et filtrer toutes les données fournies par 
 
 
 ## RGPD
+104. Qu’est-ce que le RGPD ? 
+Le RGPD (Règlement Général sur la Protection des Données) est une réglementation de l'Union Européenne visant à protéger les données personnelles des citoyens
+105. Quel est son objectif principal ? 
+Son objectif principal est de protéger la vie privée des individus en réglementant la collecte, l'utilisation, et le stockage de leurs données personnelles
+106. Quelle est la date d’entrée en vigueur du RGPD ? 
+Le RGPD est entré en vigueur le 25 mai 2018
+107. Quelles sont les sanctions possibles en cas de non-respect du RGPD ? 
+Les sanctions peuvent aller jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial de l'entreprise, selon le montant le plus élevé
+108. En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ? 
+C'est la CNIL (Commission Nationale de l'Informatique et des Libertés)
 
-104.	Qu’est-ce que le RGPD ? Le RGPD (Règlement Général sur la Protection des Données) est une réglementation de l'Union Européenne visant à protéger les données personnelles des citoyens
-105.	Quel est son objectif principal ? Son objectif principal est de protéger la vie privée des individus en réglementant la collecte, l'utilisation, et le stockage de leurs données personnelles
-106.	Quelle est la date d’entrée en vigueur du RGPD ? Le RGPD est entré en vigueur le 25 mai 2018
-107.	Quelles sont les sanctions possibles en cas de non-respect du RGPD ? Les sanctions peuvent aller jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial de l'entreprise, selon le montant le plus élevé
-108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ? C'est la CNIL (Commission Nationale de l'Informatique et des Libertés)
-109.	Quel est le consentement valide selon le RPGD ? Le consentement doit être libre, éclairé, spécifique et univoque. L'utilisateur doit donner son accord de manière claire et affirmative
-110.	Qu’est-ce qu’une politique de confidentialité ? C'est un document qui explique comment une organisation collecte, utilise, partage et protège les données personnelles des utilisateurs
-111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ? Le RGPD ne fixe pas de durée maximale spécifique, mais les données ne doivent être conservées que le temps nécessaire aux finalités pour lesquelles elles ont été collectées
-112.	Quels sont les droits des utilisateurs selon le RGPD ? Les utilisateurs ont plusieurs droits, dont le droit d'accès, de rectification, d'effacement, à la limitation du traitement, à la portabilité des données, et d'opposition
-113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ? C'est le principe selon lequel seules les données personnelles nécessaires à la finalité pour laquelle elles sont traitées doivent être collectées et conservées
-
+109. Quel est le consentement valide selon le RPGD ? 
+Le consentement doit être libre, éclairé, spécifique et univoque. L'utilisateur doit donner son accord de manière claire et affirmative
+110. Qu’est-ce qu’une politique de confidentialité ?
+ C'est un document qui explique comment une organisation collecte, utilise, partage et protège les données personnelles des utilisateurs
+111. Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+Le RGPD ne fixe pas de durée maximale spécifique, mais les données ne doivent être conservées que le temps nécessaire aux finalités pour lesquelles elles ont été collectées
+112. Quels sont les droits des utilisateurs selon le RGPD ? 
+Les utilisateurs ont plusieurs droits, dont le droit d'accès, de rectification, d'effacement, à la limitation du traitement, à la portabilité des données, et d'opposition
+113. Qu’est-ce que le principe de minimisation des données selon le RGPD ? 
+C'est le principe selon lequel seules les données personnelles nécessaires à la finalité pour laquelle elles sont traitées doivent être collectées et conservées
 
 ## SEO
-
 114.	Qu’est-ce que le SEO ? 
-115.	Quel est l’objectif principal du SEO ?
-116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
-117.	Qu’est-ce que la densité de mots-clés en SEO ?
-118.	Qu’est-ce qu’une balise « alt » ?
-119.	Qu’est-ce que la balise « meta description » ?
-120.	Qu’est-ce que le « nofollow » en SEO ?
-121.	Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
-122.	Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
-123.	Quelle est la recommandation pour les URL d'un site web bien référencé ?
-124.	Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
-125.	Qu'est-ce que l'optimisation des images pour le référencement ?
-126.	Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+Le SEO (Search Engine Optimization) est l'ensemble des techniques visant à améliorer le positionnement d'un site web dans les résultats des moteurs de recherche.
+115.	Quel est l’objectif principal du SEO ? 
+L'objectif principal du SEO est d'augmenter la visibilité et le trafic d'un site web en le positionnant mieux dans les résultats de recherche.
+116. Existe-t-il plusieurs types de référencement ? Lesquels ?
+Oui, il existe plusieurs types de référencement : le référencement naturel (SEO), le référencement payant (SEA), et le référencement local.
+117. Qu’est-ce que la densité de mots-clés en SEO ?
+La densité de mots-clés en SEO est le pourcentage de fois qu'un mot-clé apparaît par rapport au nombre total de mots dans un contenu.
+118. Qu’est-ce qu’une balise « alt » ?
+Une balise "alt" est une description textuelle d'une image utilisée pour améliorer l'accessibilité et aider les moteurs de recherche à comprendre le contenu de l'image.
+119. Qu’est-ce que la balise « meta description » ?
+La balise "meta description" est un court texte descriptif d'une page web affiché dans les résultats de recherche pour inciter les utilisateurs à cliquer.
+120. Qu’est-ce que le « nofollow » en SEO ?
+Le "nofollow" est un attribut qui indique aux moteurs de recherche de ne pas suivre un lien spécifique ou de ne pas transmettre d'autorité à la page liée.
+121. Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
+Un contenu de qualité est essentiel pour le référencement car il aide à retenir les utilisateurs, à améliorer l'engagement, et à montrer aux moteurs de recherche la pertinence de votre site.
+122. Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+L'utilisation structurée des balises de titre (h1, h2, h3, etc.) permet d'organiser le contenu et d'améliorer l'accessibilité et le SEO d'une page web.
+123. Quelle est la recommandation pour les URL d'un site web bien référencé ?
+Les URL d'un site bien référencé doivent être courtes, lisibles, et contenir des mots-clés pertinents.
+124. Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+Le maillage interne consiste à lier différentes pages d'un même site pour faciliter la navigation et aider les moteurs de recherche à explorer et indexer le site.
+125. Qu'est-ce que l'optimisation des images pour le référencement ?
+L'optimisation des images pour le référencement inclut la réduction de leur taille, l'utilisation de balises "alt", et des formats adaptés pour améliorer la vitesse du site et le SEO.
+126. Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+126. Un plan de site (sitemap) est un fichier qui liste toutes les pages d'un site pour faciliter leur indexation par les moteurs de recherche.
 
+## GESTION DE PROJET - DevOps
+127. Qu’est-ce que la gestion de projet ?
+La gestion de projet consiste à planifier, organiser et superviser un projet pour atteindre des objectifs définis.
+128. Qu’est-ce qu’une méthode Agile de gestion de projet ? 
+Une méthode Agile est une approche flexible de gestion de projet qui permet des ajustements rapides en cours de développement.
+129. Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+La méthode MoSCoW classe les priorités d'un projet en Must have (essentiel), Should have (important), Could have (souhaitable), et Won't have (non prioritaire), pour mieux gérer les attentes et les ressources.
+130. A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+La méthodologie MVP (Minimum Viable Product) permet de créer une version simplifiée d'un produit pour tester rapidement sa viabilité, en mettant l'accent sur les fonctionnalités essentielles.
+131. Qu’est-ce que la planification itérative ?
+La planification itérative divise un projet en cycles courts pour permettre des améliorations continues en fonction des retours.
+132. Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+Trois méthodes Agiles en informatique sont Scrum, Kanban, et Extreme Programming (XP).
+133. Qu’est-ce qu’une réunion de revue de projet ?
+Une réunion de revue de projet évalue les progrès réalisés, discute des problèmes rencontrés et ajuste le plan si nécessaire.
+134. Qu’est-ce qu’un livrable dans un projet ? 
+Un livrable est un produit ou un résultat final d'un projet remis aux parties prenantes.
+135. Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+Les trois piliers de Scrum sont la transparence (rendre l'information visible), l'inspection (examiner le travail régulièrement), et l'adaptation (ajuster si nécessaire).
+136. Qu’est-ce que le DevOps et quel est son objectif principal ?
+Le DevOps est une pratique qui unifie le développement et les opérations pour accélérer les livraisons et améliorer la qualité logicielle.
+137. Qu’est-ce que l’intégration continue ? 
+L'intégration continue est une pratique consistant à tester et valider automatiquement le code à chaque modification pour détecter rapidement les erreurs.
+138. Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+Docker est une plateforme de conteneurisation qui permet d'isoler les applications et leurs dépendances, facilitant le déploiement et l'intégration dans DevOps.
+139. Qu’est-ce qu’un test unitaire ? 
+Un test unitaire vérifie qu'une petite partie de code fonctionne correctement indépendamment des autres.
+140. Quelle est l'unité de code testée lors d'un test unitaire ?
+L'unité de code testée lors d'un test unitaire est généralement une fonction ou une méthode.
+141. Quelles sont les caractéristiques d'un bon test unitaire ?
+Un bon test unitaire est rapide, indépendant, répétable, et couvre différents cas possibles.
+142. Qu'est-ce qu'une assertion dans un test unitaire ?
+Une assertion dans un test unitaire vérifie si le résultat d'un test correspond à l'attendu.
 
-## Gestion de projets - DevOps
-127.	Qu’est-ce que la gestion de projet ?	
-128.	Qu’est-ce qu’une méthode Agile de gestion de projet ? 
-129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
-130.	A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
-131.	Qu’est-ce que la planification itérative ?
-132.	Citer 3 méthodes Agiles dans le cadre d’un projet informatique
-133.	Qu’est-ce qu’une réunion de revue de projet ?
-134.	Qu’est-ce qu’un livrable dans un projet ? 
-135.	Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
-136.	Qu’est-ce que le DevOps et quel est son objectif principal ?
-137.	Qu’est-ce que l’intégration continue ? 
-138.	Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
-139.	Qu’est-ce qu’un test unitaire ? 
-140.	Quelle est l'unité de code testée lors d'un test unitaire ?
-141.	Quelles sont les caractéristiques d'un bon test unitaire ?
-142.	Qu'est-ce qu'une assertion dans un test unitaire ?
  
 ## English
 
